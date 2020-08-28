@@ -2,3 +2,4 @@ soundcloud
 requests
 mutagen
 clint
+six
