@@ -7,8 +7,8 @@ from mutagen.id3 import ID3 as OldID3
 from mutagen.id3 import APIC
 from clint.textui import progress
 
-CLIENT_ID = "***" #your client ID
-FOLDER_LOCATION = "***" #where you want the file saved to
+CLIENT_ID = "YOUR ID HERE"  # your client ID
+FOLDER_LOCATION = "YOUR DIR HERE"  # where you want the file saved to
 client = soundcloud.Client(client_id=CLIENT_ID)
 SONG_TO_DOWNLOAD = ""
 STREAM_URL = ""
